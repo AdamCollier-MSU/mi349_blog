@@ -17,17 +17,22 @@
                 </ul>
             </nav>
         </header>
-        <section id="contact me">
+        <section id="ContactMe">
             <h2>Get in contact with me</h2>
             <form>
                 <label> Name
                     <input type="text">
                 </label>
                 <label> Email Address
-                    <input type="text">
+                    <input type="email">
                 </label>
                 <label>Reason for contact
-                    <input type="drop down">
+                    <select name="reasons" id="reasons">
+                        <option value="default"></option>
+                        <option value="SayingHi">saying hi</option>
+                        <option value="LookingForContractor">looking for a contractor</option>
+                        <option value="InterestedInInterview">interested in an interview</option>
+                    </select>
                 </label>
                 <label> Comment
                     <input type="text">
