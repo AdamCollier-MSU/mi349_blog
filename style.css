@@ -48,16 +48,17 @@ p {
     max-width: 900px;
     text-align: left;
 }
-figure {
-    float: right;
-    margin-right: 5px; 
-}
 [id="selfie"] {
     scale: 65%;
     position: relative;
-    top: -45px;
+    top: -100px;
     left: 0px;
 }
+figure {
+    float: right;
+    margin: 5px 5px;
+}
+
 image {
     margin: 0 auto;
     padding: 0 0 0 10px; 
