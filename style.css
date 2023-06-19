@@ -50,7 +50,7 @@ p {
 }
 figure {
     float: right;
-    margin: 0 auto; 
+    margin-right: 5px; 
 }
 [id="selfie"] {
     scale: 65%;
