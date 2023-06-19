@@ -16,14 +16,22 @@ h1 {
 }
 
 h2 {
-    margin: 0 auto;
-    padding: 10px 0px 0px;
+    margin: 10px 10px;
+    padding: 10px 0px 0px 0px;
     font-size: 2em;
 }
 
+[id="about-header"] {
+    color: darkslategrey;
+}
+
+[id="contact-header"] {
+    color: darkslateblue;
+}
+
 h3 {
-    margin: 0 auto;
-    padding: 10px 0px 5px;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 10px;
     font-size: 1.5em;
 }
 
@@ -33,20 +41,34 @@ p {
     margin: 0 auto;
     padding: 0 auto;
 }
-.image_block {
-    margin: 0 auto;
-    padding: 10px 0px;
-}
 .text_box {
-    margin: 0 auto;
-    padding: 10px 0px ;
+    margin: 10px 0px;
+    padding: 0px 0px;
+    width: 90%;
+    max-width: 900px;
+    text-align: left;
 }
+figure {
+    float: right;
+    margin: 0 auto; 
+}
+[id="selfie"] {
+    scale: 65%;
+    position: relative;
+    top: -45px;
+    left: 0px;
+}
+image {
+    margin: 0 auto;
+    padding: 0 0 0 10px; 
+}
+
 .author {
     margin: 0 auto;
     padding: 0 auto;
 }
 
-#blog {
+#blog, #AboutMe, #ContactMe {
     border-top: 3px dotted lightgray;
 }
 
@@ -56,7 +78,7 @@ p {
     padding-bottom: 15px;
 }
 .source {
-    padding: 10px 0px 0px;
+    margin: 10px 0px 0px;
 }
 
 table, td, th {
@@ -64,4 +86,19 @@ table, td, th {
     border-collapse: collapse;
     text-align: center;
     padding: 10px 10px;
+}
+
+.sticky {
+    background: whitesmoke;
+    position: sticky;
+    top: 0;
+}
+form {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+label {
+    padding-right: 10px;
 }
